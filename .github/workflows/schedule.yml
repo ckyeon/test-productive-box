@@ -12,5 +12,5 @@ jobs:
         uses: ckyeon/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 
-          TIMEZONE: Asia/Taipei
+          GIST_ID: e02e658560b14dd3d0310c2ac103f32d
+          TIMEZONE: Asia/Seoul
