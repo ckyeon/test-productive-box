@@ -83,7 +83,7 @@ interface IRepo {
     const percent = cur.commits / sum * 100;
     const line = [
       `${cur.label}`.padEnd(8),
-      `${cur.commits.toString().padStart(4)} commits`.padEnd(14),
+      `${cur.commits.toString().padStart(3)} commits`.padEnd(14),
       generateBarChart(percent, 21),
       String(percent.toFixed(1)).padStart(5) + '%',
     ];
